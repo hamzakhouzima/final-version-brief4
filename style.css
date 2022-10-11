@@ -1,0 +1,647 @@
+
+
+
+
+
+/*hamza css start*/
+
+*{
+    box-sizing: border-box;
+    
+}
+/* .container {
+
+width:100%;
+
+display: flex;
+position: relative;
+flex-wrap: wrap;
+justify-content: space-around; 
+}
+ */
+
+/* .body{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+} */
+
+
+.navigation {
+    display: flex;
+position: relative;
+flex-wrap: wrap;
+justify-content: space-around; 
+/*(((((*/
+/* position: absolute; */
+ background-color: rgb(255, 255, 255); 
+ /* display:inline-flex; */
+ 
+padding: 60px;
+padding-bottom: 3px;
+width: 80%;
+margin-top: -60px;
+color:black;
+}
+.login {
+    position:absolute;
+    width:2cm;
+    height: auto ;
+    padding-left: 80%;
+    display:inline-flex;
+    flex-flow: wrap;
+    /* flex-direction: row; */
+    left: 190px;
+    margin-left:2cm ;
+    
+
+}
+ .button1{
+ position:absolute;
+ background-color: black;
+ border-radius: 4px;
+ display: inline-flex;
+ top: 50%;
+color:white;
+ margin-top: 30px;
+ width: 70px; 
+
+
+
+
+}
+.button2{
+    position:absolute;
+    background-color: white;
+  display: flex;
+    top: 50%;
+   color:black;
+    margin-top: 30px;
+    width: 70px;
+    right: 20px;
+    border: none;
+   
+   
+   }
+
+
+    
+   
+
+.bb{
+
+display:inline-flex;
+padding: 16px;
+
+
+
+}
+
+.options{
+    
+list-style: none;
+padding: l3cm;
+padding-top: 20px; 
+
+}
+.navig{
+float: left;
+display:flex;
+padding-left: 2cm;
+
+}
+
+ 
+ 
+
+
+.header{
+    display: flex;
+    position: relative;
+    margin-bottom: 100px; 
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 5cm;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    border-radius: 3px;
+    
+
+
+
+
+}
+
+
+.image{
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 290px;
+    margin-left: 70% ;
+     margin-bottom: 100px; 
+  
+    
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+
+  .title{
+    position: relative;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(225, 237, 247);
+    padding-left: 1cm;
+    
+  }
+
+.search-bar {
+ display: flex;
+ position: absolute;   
+
+height: 40px;
+border:none;
+border-radius: 7px;
+width: 7cm;
+
+
+
+
+
+}
+
+
+.title-button{
+    
+    display: table-cell;
+    vertical-align: middle;
+    width: 200px;
+    margin-right: 6cm;
+    margin-bottom: 45px;
+    position: absolute;
+    height: 40px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
+    border-radius: 7px;
+ 
+   border:none;
+
+}
+
+
+.title input{
+    color:black;
+} 
+
+
+.title ion-icon{
+    position:absolute;
+   color:black;
+   left: 280px;
+   padding: 11px;
+   padding-left: 3px;
+   
+}
+/*################################################################################"""""""*/
+/*################################################################################"""""""*/
+/*################################################################################"""""""*/
+/*################################################################################"""""""*/
+/* @media only screen and (min-width:820px ){
+
+.options{
+    display:inline-flex;
+    padding: 0px 0px 0px;
+}
+
+} */
+@media only screen and (max-width:600px){
+
+
+     .navigation{
+        
+        width: 100%;
+        height: 4cm;
+       background-color:black ;
+    }
+    .button1{
+        width:40%;
+        padding-left: 56px;
+    }
+    .button2{
+        width:50%;
+        padding-left: 56px;
+        border: 1cm;
+        border-color: black;
+    }
+
+
+
+
+    .login {
+        bottom: -30px;
+        margin-left: -300px;
+        margin-right: auto;
+        
+    }
+    .header{
+        /* display:none; */
+        bottom: -110px;
+        width: 100%;
+        margin-left: 10px;
+        height: 6cm;
+    }
+    .image{
+        display: none;
+    }
+    .title-button{
+        bottom: -30px;
+        margin-right: 50%;
+        top: 4cm;
+        display: flex;
+    }
+    .navig{
+        bottom: 0px;
+        float: left;
+        display:flex;
+        padding-left: 2cm;
+        
+        }
+
+
+
+
+.navigation #logostyle{
+    
+    color: white;
+    padding-left: 5cm;
+    
+}
+
+nav {
+    position: relative;
+    color:rgb(0, 0, 0);
+    display: inline-flex;
+    left: 0%;
+    top: 2cm;
+    width: 6cm;
+}
+ul{
+
+    position: absolute;
+}
+.options{
+    /* width: 100%;
+height: 1cm; */
+display: inline-flex;
+left: -5cm;
+    top: 0cm;
+    padding: 0;
+    border-radius: 1cm;
+    border-color: black;
+
+} 
+}
+@media only screen and (min-width:700px){
+ .options{
+    display: inline-flex;
+ }
+ .title{
+ width:100%;
+ 
+
+ }
+.title-button{
+    position:absolute;
+    right:7cm;
+    bottom: 0px;
+
+}
+
+}
+/*hamza css end*/
+.logoCmp {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-partner ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-partner2 ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-partner3 ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-partner ul li {
+    width: 35%;
+    height: 40px;
+    margin: 0 50px;
+}
+
+.list-partner2 ul li {
+    width: 35%;
+    height: 40px;
+    margin: 0 50px;
+}
+
+.list-partner3 ul li {
+    width: 35%;
+    height: 40px;
+    margin: 0 50px;
+}
+
+.list-partner ul li img {
+    width: 70%;
+    height: 100%;
+}
+
+.list-partner2 ul li img {
+    width: 70%;
+    height: 100%;
+}
+
+.list-partner3 ul li img {
+    width: 70%;
+    height: 100%;
+}
+
+
+/* .list-partner {
+    width: 100%;
+}
+
+.list-partner ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-partner ul li {
+    width: 15%;
+    height: 40px;
+    margin: 0 20px;
+}
+
+.list-partner ul li img {
+    width: 70%;
+    height: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 35px;
+    flex-wrap: wrap;
+} */
+
+
+/*youssef aziz part2*/
+
+
+/* .cash img {
+    width: 1.8rem;
+    height: 1.8rem;
+} */
+
+.vrai {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.cash {
+    display: flex;
+    align-items: center;
+}
+
+.line>* {
+    padding: 5px;
+}
+
+.aziz-youssef {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aziz-youssef>* {
+    flex-basis: 28%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    font-size: 1.25rem;
+}
+
+.img8 {
+    position: relative;
+    margin-right: 5%;
+}
+
+.img8 img {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
+
+.line h3 {
+    margin: 5px;
+}
+
+.mid>* {
+    justify-content: center;
+    font-size: 75%;
+}
+
+.button {
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button button {
+    border: none;
+    background-image: linear-gradient(to right, #FA7A33, #AD369D);
+    border-radius: 5px 5px;
+    width: 200px;
+    height: 50PX;
+    color: azure;
+}
+
+.noir-bar {
+    display: flex;
+    position: relative;
+    margin-bottom: 100px;
+    background-color: rgb(0, 0, 0);
+    width: 92%;
+    height: 7cm;
+    margin-left: 50px;
+    margin-top: 90px;
+    border-radius: 3px;
+}
+
+.bar-image {
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 290px;
+    margin-left: 70%;
+    margin-bottom: 100px;
+    margin-top: -30px;
+}
+
+.title-bar {
+    color: white;
+    margin-left: 10px;
+}
+
+.prd {
+    display: flex;
+    list-style: none;
+}
+
+.prd h5 {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.get {
+    display: flex;
+    list-style: none;
+}
+
+.get h5 {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.button-links-post button {
+    padding: 10px 40px;
+    text-transform: capitalize;
+}
+
+.button-links-post {
+    display: flex;
+    align-items: center;
+}
+
+.button-links-post button:first-child {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.button-links-post button:last-child {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: linear-gradient(0.25turn, #FB7B30, #A831A5);
+    color: white;
+    margin-left: 10px;
+}
+
+.button-links-post button:first-child div {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.button-links-post button:first-child div img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .img8.delet {
+        display: none;
+        width: 0%;
+        height: 0%;
+    }
+    .aziz-youssef {
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-around;
+    }
+    .bar-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .img8.ar {
+        display: none;
+        width: 0%;
+        height: 0%;
+    }
+    .aziz-youssef {
+        display: flex;
+        justify-content: center;
+    }
+    .button-links-post {
+        flex-wrap: wrap;
+    }
+    .noir-bar {
+        height: 8.5cm;
+        width: 75%;
+    }
+    .button-links-post {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .button-links-post button:last-child {
+        margin: 0px;
+    }
+    .list-partner ul {
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .list-partner2 ul {
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .list-partner3 ul {
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .list-partner ul li {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .list-partner2 ul li {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .list-partner3 ul li {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
